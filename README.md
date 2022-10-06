@@ -1,13 +1,4 @@
-- 👋 Hi, I’m @Midhunxlokixser
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-
-<!---
-Midhunxlokixser/Midhunxlokixser is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->			(!message.reply_message.audio && !message.reply_message.video)
+			(!message.reply_message.audio && !message.reply_message.video)
 		)
 			return await message.send('*Reply to audio or video*')
 		const p = await message.reply_message.downloadAndSaveMediaMessage('find')
